@@ -19,16 +19,16 @@ def test_no_movement():
 
 def test_10_percent():
     value = Lab02.moving_time(0.1 * 3E8)
-    assert is_within_percent(value, 21.818182, 0.01)
+    assert is_within_percent(value, 21.7088, 0.01)
 
 def test_50_percent():
     value = Lab02.moving_time(0.5 * 3E8)
-    assert is_within_percent(value, 28.8, 0.01)
+    assert is_within_percent(value, 24.94153, 0.01)
 
 def test_95_percent():
     value = Lab02.moving_time(0.95 * 3E8)
-    assert is_within_percent(value, 221.538, 0.01)
+    assert is_within_percent(value, 69.17536, 0.01)
 
 def test_99_percent():
     value = Lab02.moving_time(0.99 * 3E8)
-    assert is_within_percent(value, 1085.427, 0.01)
+    assert is_within_percent(value, 153.1183, 0.01)
