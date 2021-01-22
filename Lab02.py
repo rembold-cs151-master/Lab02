@@ -1,28 +1,39 @@
 # File: Lab02.py
 
-"""
-Lab 2 practice at using variable and writing simple functions.
-"""
+import karel
+
+# Your code should go immediately below the comment
+# in each of the below functions. Remember to tab it
+# in (so it lines up with the comment) so that it is
+# part of the function "bundle"!
 
 
-SPEED_OF_LIGHT = 3e8  # m/s
-
-# Define your function and necessary code below !
-
-
-
-
-
-
-
+def paint_room():
+    """
+    Function to paint all 4 walls of the
+    room with beepers. You'll need to use
+    your below defined functions here to
+    achieve the desired goal of painting
+    all 4 walls of the room with beepers.
+    """
 
 
+def move_to_corner():
+    """
+    Function to initially move the bot
+    into a corner.
+    """
 
 
+def paint_wall():
+    """
+    Moves along one wall, "painting" it
+    by placing beepers along it.
+    """
 
 
-
-
-
-if __name__ == "__main__":
-    print(moving_time(5000))
+def reposition():
+    """
+    Turns and otherwise repositions Karel
+    in between walls.
+    """
