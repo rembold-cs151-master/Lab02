@@ -11,6 +11,12 @@ Wall: (7, 1) SOUTH
 Wall: (8, 1) SOUTH
 Wall: (9, 1) SOUTH
 Wall: (10, 1) SOUTH
-Karel: (2, 1) EAST
+Beeper: (1, 1) 1
+Beeper: (3, 2) 1
+Beeper: (6, 1) 1
+Beeper: (7, 1) 1
+Beeper: (9, 2) 1
+Beeper: (10, 1) 1
+Karel: (2, 1) NORTH
 BeeperBag: INFINITE
 Speed: 0.50
